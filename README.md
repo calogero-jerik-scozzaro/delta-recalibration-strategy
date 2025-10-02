@@ -4,7 +4,7 @@ This repository contains code and resources to reproduce the experiments describ
 
 There are two ways to run the experiments:
 
-1. **(Optional)** Recompute perplexities from scratch using the original datasets.  
+1. **(Optional)** Recompute perplexities from scratch using the original datasets, and then run the analysis notebooks. 
 2. **Use the pre-computed perplexities** already included in this repository.  
 
 ---
@@ -23,16 +23,6 @@ python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
-### 3. Run experiments
-- **AD experiments:**  
-  ```bash
-  jupyter notebook delta_recalibration_ad.ipynb
-  ```
-- **Guardian experiments:**  
-  ```bash
-  jupyter notebook delta_recalibration_guardian.ipynb
-  ```
 
 ---
 
